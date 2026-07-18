@@ -8,15 +8,23 @@ const mensaje = document.getElementById("mensaje");
 const contenedor = document.querySelector(".contenedor");
 
 // Frases que aparecerán al pulsar "No"
-const frases = [
-    "¿Segura? 🥺",
-    "Piénsalo otra vez ❤️",
+const mensajes = [
     "No acepto esa respuesta 😭",
     "Vamos... dame una oportunidad 😋",
     "Estoy esperando el Sí 😩",
     "¿De verdad vas a decir que no? 🥹",
     "El botón correcto es el rosado 😏",
-    "¡Casi lo logras! Ahora pulsa Sí 🤭"
+    "¡Casi lo logras! Ahora pulsa Sí 🤭",
+    "Piénsalo otra vez... 💖",
+    "¿Segura? 👀",
+    "Mi corazón dice que elijas 'Sí' ❤️",
+    "No seas tan mala conmigo 🥺",
+    "Vamos, un solo clic en 'Sí' 🌹",
+    "Ese 'No' se ve sospechoso... 🤨",
+    "Prometo hacerte muy feliz 💕",
+    "El destino quiere que pulses 'Sí' ✨",
+    "¿Y si mejor dices que sí? 😌",
+    "No me hagas seguir insistiendo 😭"
 ];
 
 let intentos = 0;
