@@ -27,7 +27,7 @@ const mensajes = [
     "No me hagas seguir insistiendo 😭"
 ];
 
-let intentos = 0;
+let intentos = 15;
 
 // ====================================
 // CUANDO PULSA EL BOTÓN NO
