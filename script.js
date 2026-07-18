@@ -27,7 +27,7 @@ const mensajes = [
     "No me hagas seguir insistiendo 😭"
 ];
 
-let intentos = 15;
+let intentos = 0;
 
 // ====================================
 // CUANDO PULSA EL BOTÓN NO
@@ -35,15 +35,13 @@ let intentos = 15;
 
 btnNo.addEventListener("click", () => {
 
-    // Cambiar mensaje
-    if (intentos < frases.length) {
-        mensaje.textContent = frases[intentos];
+    if (intentos < mensajes.length) {
+        mensaje.textContent = mensajes[intentos];
     } else {
         mensaje.textContent = "Ya no puedes escapar 😂❤️";
     }
 
     intentos++;
-
     // Hacer crecer el botón SI
     const escala = 1 + (intentos * 0.15);
 
